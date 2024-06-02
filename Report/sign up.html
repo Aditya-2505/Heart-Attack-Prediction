@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Sign Up</title>
+    <link rel="stylesheet" href="sign up.css" />
+  </head>
+  <body>
+    <script>
+      function redirectme() {
+        location.replace("homepg2.html");
+      }
+    </script>
+    <div class="signup-box">
+      <h2 style="color: black; font-size: 30px">SIGN UP</h2>
+      <form class="form-signup" action="#">
+        <label for="fname">First Name : </label>
+        <input type="text" name="Fname" placeholder="First Name" required />
+        <br /><br />
+        <label for="lname">Last Name : </label>
+        <input type="text" name="lname" placeholder="Last Name" required />
+        <br /><br />
+        <label for="gender">Gender : </label>
+        <select id="gender" required>
+          <option value="Gender"></option>
+          <option value="Male">Male</option>
+          <option value="Female">Female</option>
+          <option value="Rather not to say">Rather not to say</option>
+        </select>
+        <br /><br />
+        <label for="number">Number : </label>
+        <input
+          type="text"
+          inputmode="numeric"
+          pattern="\d*"
+          id="number"
+          placeholder="Number"
+          required
+        />
+
+        <br /><br />
+        <label for="email">Email : </label>
+        <input type="email" name="email" placeholder="Email" required />
+        <br /><br />
+        <label for="password">Password : </label>
+        <input
+          type="password"
+          name="password"
+          placeholder="Password"
+          style="width: 200px"
+          required
+        />
+        <br /><br />
+        <button
+          type="submit"
+          value="Submit"
+          onclick="redirectme()"
+          style="
+            background-color: rgb(31, 177, 165);
+            width: 150px;
+            color: aliceblue;
+          "
+        >
+          Sign Up
+        </button>
+      </form>
+      <br />
+      <p>
+        Already have account?<u><a href="loginpage.html">Log-In</a></u>
+      </p>
+    </div>
+  </body>
+</html>

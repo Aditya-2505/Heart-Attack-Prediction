@@ -1,0 +1,73 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Poppins", sans-serif;
+}
+#banner {
+  background: linear-gradient(rgba(0, 0, 0, 0.5), #b10202),
+    url(images/cp-backround.jpg);
+  background-size: cover;
+}
+.logo {
+  width: 100px;
+  position: absolute;
+  top: 1%;
+  left: 5%;
+  border-radius: 50%;
+}
+.banner-text {
+  text-align: center;
+  color: #fff;
+  padding-top: 180px;
+}
+.banner-text h1 {
+  font-size: 80px;
+  font-family: "Kaushan Script", cursive;
+}
+
+.banner-text p {
+  font-size: 20px;
+}
+form {
+  width: 400px;
+  margin: 50px auto;
+  padding: 30px;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+}
+
+/* Label styles */
+label {
+  font-weight: bold;
+  margin-top: 10px;
+  display: block;
+}
+
+/* Input styles */
+input[type="text"],
+input[type="email"],
+input[type="password"] {
+  width: 100%;
+  padding: 10px;
+  margin-top: 10px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}
+
+/* Submit button styles */
+input[type="submit"] {
+  width: 100%;
+  padding: 10px;
+  margin-top: 20px;
+  background-color: #88ce8a;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+/* Error message styles */
+.error {
+  color: red;
+  margin-top: 10px;
+}

@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Login</title>
+    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="loginpage.css" />
+    <script>
+      function redirectme() {
+  location.replace("homepg2.html");
+}
+
+    </script>
+
+  </head>
+  <body>
+    <div id="login-form-wrap">
+      <h2>Login</h2>
+      <form id="login-form">
+        <p>
+          <input type="text" name="username" placeholder="Username" required />
+        </p>
+        <p>
+          <input type="email" name="email" placeholder="Email Address" required />
+        </p>
+        <p>
+            <input type="submit" value="Login" target="_blank" onclick="redirectme()">
+
+          </form>
+        </p>
+      </form>
+      <div>
+        <p>Not a member? <a href="sign up.html">Create Account</a></p>
+        <p></p>
+      </div>
+    </div>
+  </body>
+</html>

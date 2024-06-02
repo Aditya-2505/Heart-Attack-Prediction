@@ -1,0 +1,14 @@
+.fontstyle {
+  color: #ffffff;
+  size: 4;
+}
+
+body {
+  background-repeat: no-repeat;
+  background-size: 100%;
+  box-sizing: border-box;
+}
+img {
+  float: left;
+  width: 100%;
+}

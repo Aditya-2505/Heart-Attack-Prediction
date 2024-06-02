@@ -1,0 +1,3 @@
+function redirectme() {
+  location.replace("");
+}
